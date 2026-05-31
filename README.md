@@ -1,23 +1,56 @@
-# Stage336: Safe Live Intelligence Fetcher
+# Stage337: Safe Reproduction Template Library
 
-Stage336 adds a safe live intelligence layer to QSP/VEP.
+Stage337 adds a safe reproduction template library on top of Stage336.
 
-It collects only public security and AI-risk metadata.
+This stage does not include attack code, dangerous prompts, exploit payloads, bypass steps, or automated attack logic.
 
-It does not collect exploit code, attack prompts, payloads, malware, or reproduction instructions.
+## What Stage337 Adds
 
-## Public Output
-
-- docs/intel/index.html
-- docs/intel/index.json
+- Safe reproduction template JSON
+- Vulnerability category
+- Expected behavior
+- Pass condition
+- Fail condition
+- Safety boundary
 
 ## Safety Policy
 
-- metadata only
-- no exploit code
-- no attack prompts
-- no payload collection
-- no automated attack logic
+Stage337 explicitly excludes:
+
+- Attack code
+- Dangerous prompts
+- Bypass procedures
+- Exploit payloads
+- Automated attack logic
+
+## Public Files
+
+- `docs/templates/safe_reproduction_templates.json`
+- `docs/index.html`
+
+## Private Files
+
+The following are intentionally excluded from GitHub:
+
+- `core/`
+- `local/`
+- `private/`
+- `.env`
+- secret keys
+
+## Meaning
+
+Stage336 answers:
+
+What is happening in the world?
+
+Stage337 answers:
+
+How can we safely define a check?
+
+## Next Stage
+
+Stage338 can use these templates for a Behavior Matching Engine.
 
 ## License
 
