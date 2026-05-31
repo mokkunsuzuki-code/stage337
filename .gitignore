@@ -12,3 +12,4 @@ venv/
 private_core/
 backup_stage336_docs/
 *.backup*
+data/
