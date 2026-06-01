@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-05-30T05:03:51.353543+00:00",
+  "generated_at": "2026-06-01T04:05:59.184886+00:00",
   "mode": "safe-metadata-only",
   "item_count": 48,
   "items": [
@@ -728,159 +728,17 @@
       }
     },
     {
-      "id": "45a48daf44c673a2",
+      "id": "ae1c8dac3d745f3c",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
-      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented and classified 15 supervision events by intervention level.   The agent resolved ten autonomously by iterating against oracle tests. Two more by the physicist's domain knowledge. The three it could n",
-      "published": "2026-05-28T17:59:59Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "astro-ph.CO",
-        "cs.HC",
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2605.30353v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a2dfc2040946b814",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
-      "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}",
-      "published": "2026-05-28T17:59:53Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2605.30348v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "65311ef143d69a41",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
-      "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, the first large language model that generates editable PCB schematics from natural-language requests. The key challenge lies in the lack of an LLM-suited representation and a large-scale dataset. Curr",
-      "published": "2026-05-28T17:59:50Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2605.30345v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fc8e5470ca04e6fd",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
-      "summary": "Test-time finetuning (TTFT) is a rapidly evolving paradigm that adapts a language model to each prompt by retrieving related sequences, updating the model on them, and then evaluating the prompt. However, TTFT is only practical if it is fast: selection and finetuning both happen per query, making each a direct bottleneck. Existing methods trade speed for quality: fast retrieval is often redundant, while stronger diversity-aware selection adds prohibitive per-query cost. We introduce HullFT, a ge",
-      "published": "2026-05-28T17:59:01Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2605.30337v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ef1ae8e4ba13dfb0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
-      "summary": "Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is locally coherent. We formalise this locally coherent, globally incoherent failure via the compositional residual eps*, the L2 distance from the composed quote to the joint coherent polytope, computable at runtime from system output and the declared cross-component coupling constraints. A product-stru",
-      "published": "2026-05-28T17:58:55Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2605.30335v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c47aa9e5b5fb7735",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Demystifying Data Organization for Enhanced LLM Training",
-      "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategic data organization for enhanced training remains an underexplored area, particularly since current LLMs are often trained for only one or a few epochs. This paper systematically explores the influence of data organization on LLM training by reusing pre-computed sample-level scores originally genera",
-      "published": "2026-05-28T17:58:53Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2605.30334v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "81a10284bd231357",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "COMPOSE: Composing Future Theorems from Citations and Formal Structure",
-      "summary": "A plausible future mathematical claim must satisfy two constraints: it should follow the direction of prior work and respect the formal dependencies that constrain what can validly follow. Existing approaches typically model only one of these sources, producing claims that are either weakly grounded or insufficiently motivated. We introduce grounded future mathematical generation, where the goal is to generate a plausible future theorem-like claim for an anchor paper using two complementary sour",
-      "published": "2026-05-28T17:58:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2605.30333v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1d9e242cf7ad32a9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Colored Noise Diffusion Sampling",
-      "summary": "Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing the finite energy budget. In this work, we establish a mathematical framework that reconsiders SDE inf",
-      "published": "2026-05-28T17:58:13Z",
+      "title": "SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models",
+      "summary": "Measuring structured object understanding in vision foundation models remains challenging due to inconsistent evaluation protocols and limited part-level supervision. Semantic correspondence (SC) evaluates this capability by testing whether object parts can be matched across instances and categories under large variations in appearance, viewpoint, and geometry. To enable a systematic SC evaluation, we introduce SOCO, a new benchmark for Semantic Object Correspondence that introduces a taxonomy o",
+      "published": "2026-05-29T17:58:48Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2605.30332v1",
+      "url": "https://arxiv.org/abs/2605.31597v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -889,37 +747,175 @@
       }
     },
     {
-      "id": "b6967df2232b3b62",
+      "id": "55419cc7cc693603",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
-      "summary": "Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We introduce SoundnessBench, a curated benchmark of 1,099 machine-learning research proposals reconstructed from ICLR submissions, labeled with r",
-      "published": "2026-05-28T17:57:37Z",
+      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
+      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, splitting a harmful task across many user accounts so each individual transcript looks benign. Because safety monitors score only one agent context at a time, they are structurally blind to misuse that is only visible in aggregate, across many accounts. We show this gap is real by building, to our know",
+      "published": "2026-05-29T17:57:00Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2605.30329v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6b2e9cbbe987043b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "In-Context Reward Adaptation for Robust Preference Modeling",
-      "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heterogeneous, and a single reward model often lacks the robustness required to generalize to unseen preference domains. While existing multi-reward frameworks attempt to address this, they are often restricted to a fixed set of known domains and fail to adapt to unseen human distributions without costly",
-      "published": "2026-05-28T17:56:54Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
+        "cs.CR",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2605.30323v1",
+      "url": "https://arxiv.org/abs/2605.31593v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32904b1f1b660f14",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "CoFiDA-M: Concept-Aware Feature Modulation for Cross-Domain Adaptation with Image-Only Inference",
+      "summary": "Models for AI-based skin cancer screening suffer a severe performance drop when shifting from expert dermoscopic (source) images to consumer-grade clinical (target) images, hindering real-world deployment. Existing domain adaptation methods often ignore crucial semantic invariants, such as clinical concepts. While new foundation models like MONET can provide this semantic information as dense, probabilistic scores, this metadata is unavailable at test time, creating a deployment paradox for prac",
+      "published": "2026-05-29T17:56:36Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2605.31591v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bc6c87bcd4679ebc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation",
+      "summary": "Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video diffusion transformers (DiTs) and uncover intrinsic turning points in the DiT denoising trajectory where conditioning text affects generation from global layout to fine-grained details. Building on this finding, we present TunerDiT, a simple yet effective progressive steering method that requires no ad",
+      "published": "2026-05-29T17:56:09Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2605.31590v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b89941df42b0fd67",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
+      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics underlie the acquisition of this knowledge. Focusing on a set of rare Paired-Focus constructions in English (e.g. \"let alone\", \"much less\"), we construct a novel dataset to test their meanings using both s",
+      "published": "2026-05-29T17:54:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2605.31586v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9e1a7c7d51e0aeb5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we ",
+      "published": "2026-05-29T17:51:40Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2605.31584v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bb3b48f34e76fbf3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Choosing the Lens: Strategic Perspective Activation in Context-Dependent Argumentation",
+      "summary": "The same arguments often need to be evaluated under different external regimes. An agent with influence over the regime has a strategic lever that standard formalisms do not directly capture. We introduce context-dependent argumentation frameworks (CDAFs), an extension of Dung's theory in which a defeat function determines, per context, which attacks succeed. A perspective-labeled specialisation derives the defeat function from a relevance set $ρ$ and a priority $π$. The relevance set is the age",
+      "published": "2026-05-29T17:50:11Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2605.31581v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b24d6f3cfb21b390",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Can Generative AI help people navigate Radical Moral Disagreements? The CONSIDER prototype",
+      "summary": "Radical Moral Disagreements (RMDs) are highly polarising topics that are increasingly censored in everyday life, with growing evidence suggesting that this polarisation carries measurable costs to public mental health. To address these challenges, some researchers have proposed Large Language Models (LLMs) as a means to support more democratic deliberation and better moral reasoning. Yet existing tools are poorly calibrated to help people navigate RMDs, because of their intense and divisive char",
+      "published": "2026-05-29T17:43:56Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2605.31574v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c87d6a76b995f617",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "summary": "We present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tun",
+      "published": "2026-05-29T17:29:35Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2605.31564v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "300c932c49c14a14",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
+      "summary": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we",
+      "published": "2026-05-29T17:27:07Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.31561v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
