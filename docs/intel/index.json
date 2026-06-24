@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-23T03:34:57.328756+00:00",
+  "generated_at": "2026-06-24T03:36:26.221102+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 39,
+  "item_count": 37,
   "items": [
+    {
+      "id": "8234b674a34538cb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
+      "summary": "",
+      "published": "2026-05-21T21:30:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wpfp-gwwc-vwq6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9f69866c3f549e6a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
+      "summary": "",
+      "published": "2026-05-21T21:30:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qrc4-49gv-mv9m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "89e24d607c80e6cb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Flask-Security] Flask-Security has an Open Redirect issue",
+      "summary": "",
+      "published": "2026-06-23T22:46:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8f266140590ad3ad",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye Partial Authentication Bypass: Unauthenticated Admin Credential Theft via Path Traversal",
+      "summary": "",
+      "published": "2026-06-23T19:09:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-phv5-334h-mxcw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1616ba53755504ae",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye: LFI → pass‑the‑hash admin → unsafe restore → unauth action exec (RCE)",
+      "summary": "",
+      "published": "2026-06-23T18:53:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qxvg-h7q2-hcxh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba1b77c2a032c931",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye's missing authentication on ActionHandler allows unauthenticated camera action execution",
+      "summary": "",
+      "published": "2026-06-23T18:37:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j67x-q29f-qcvv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8395cb76ca2f9c57",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye's Absolute Path Traversal in Media File Handlers Allows Arbitrary File Read",
+      "summary": "",
+      "published": "2026-06-23T18:32:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rw9q-97r9-8gvh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7596cb34d59d27ec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
+      "summary": "",
+      "published": "2026-06-23T18:03:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4b9a6ceac15e705b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances has arbitrary file write and command execution via `secure_popen` redirection and chaining operators in AMP command configuration",
+      "summary": "",
+      "published": "2026-06-23T17:59:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3vwc-qwhc-3mj7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c19676b86da98a31",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "summary": "",
+      "published": "2026-06-23T17:15:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8de7e0f76a87cf28",
       "source": "github-advisory-pip",
@@ -158,226 +348,17 @@
       }
     },
     {
-      "id": "132cfe463ae35053",
-      "source": "github-advisory-pip",
+      "id": "d9833595979bcf9a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[motioneye] motionEye's World-Readable Configuration File Exposes Admin Password Hash",
+      "title": "[@budibase/server] Budibase has nonymous NoSQL operator injection via published-app query templates",
       "summary": "",
-      "published": "2026-06-22T17:11:36.000Z",
+      "published": "2026-06-23T17:43:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rhgp-6wq6-9j67",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a39e8df15c279b15",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[motioneye] motionEye has an Arbitrary File Read via Path Traversal in Picture/Movie Preview Endpoint",
-      "summary": "",
-      "published": "2026-06-22T17:10:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g9fx-5r4h-pcw3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8e9c9870599df049",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pycti] OpenCTI has Semi-Blind SSRF via Unvalidated External URL in Data Ingestion Feature",
-      "summary": "",
-      "published": "2026-06-22T17:01:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-ffm6-vvph-g5f5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dec6cc19ae2bc932",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pycti] OpenCTI May Bypass Introspection Restriction",
-      "summary": "",
-      "published": "2026-06-22T16:43:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4mvw-j8r9-xcgc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dc7a0d9f21be4de9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aqt] Anki's local HTTP server does not sufficiently validate requests",
-      "summary": "",
-      "published": "2026-06-19T22:10:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3a1cb36bef5bcfbb",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
-      "summary": "",
-      "published": "2026-06-19T22:10:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "36fb8e291247aab1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langsmith] LangSmith SDK TracingMiddleware: Arbitrary server-side file read",
-      "summary": "",
-      "published": "2026-06-19T22:10:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cf2a9ddc153db6f7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[zeep] Zeep: Server-Side Request Forgery (SSRF)",
-      "summary": "",
-      "published": "2026-06-19T22:10:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4cc2-g9w2-fhf6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9e7b72c0bc20f8b1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aqt] Anki: User scripts in iframes have access to the internal Anki API",
-      "summary": "",
-      "published": "2026-06-19T22:10:19.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cw6h-ffmh-x6vh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "74dfc5e6ce6a397a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ChatterBot] ChatterBot: Symlink-Following Arbitrary Write via UbuntuCorpusTrainer",
-      "summary": "",
-      "published": "2026-06-19T22:08:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wvrh-2f4m-924v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1fb729c5f9715261",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[everos] EverOS: Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
-      "summary": "",
-      "published": "2026-06-19T21:43:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9561bf8b208af8fe",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[stigmem-node] stigmem-node: decay sweep expires and counts facts across all tenants (cross-tenant BOLA)",
-      "summary": "",
-      "published": "2026-06-19T21:43:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6gqw-jqv7-v88m",
+      "url": "https://github.com/advisories/GHSA-8qv3-p479-cj62",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -720,25 +701,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7feac71f8dc54d80",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mcp-searxng]  SearXNG MCP Server: DNS-resolved Private Hostname SSRF in `web_url_read`",
-      "summary": "",
-      "published": "2026-06-19T21:42:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mrvx-jmjw-vggc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
