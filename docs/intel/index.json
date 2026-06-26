@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-25T03:34:08.854152+00:00",
+  "generated_at": "2026-06-26T03:42:03.288820+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 37,
+  "item_count": 38,
   "items": [
+    {
+      "id": "e22ee895a53c662b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
+      "summary": "",
+      "published": "2026-06-25T22:07:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "715802a7a75ca032",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur]  Lemur: JWT verifier honors attacker-supplied alg, enabling ATO",
+      "summary": "",
+      "published": "2026-06-25T22:05:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r9gp-7f88-9r54",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5bd601ab9100d57d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur user-update path stores plaintext passwords",
+      "summary": "",
+      "published": "2026-06-25T22:02:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q437-g7fv-2jvv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f44b900228906d52",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur Privilege Escalation: Non-admin role members can rewrite role membership via PUT /api/1/roles/<id>",
+      "summary": "",
+      "published": "2026-06-25T22:01:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x3vf-mgxj-7785",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d4ac5e7d600a0251",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur: Crafted CRL/OCSP URLs in uploaded certificates lead to post-authentication SSRF",
+      "summary": "",
+      "published": "2026-06-25T21:58:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-54vg-pfh7-jq95",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4329f3ae931d0cd4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+      "summary": "",
+      "published": "2026-06-25T18:48:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f0bdd6f6a63682f5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[amazon-braket-sdk] amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
+      "summary": "",
+      "published": "2026-06-25T18:34:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9613b21fd7f921b7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-sdk] LangGraph SDK has unsafe URL path construction",
+      "summary": "",
+      "published": "2026-06-25T18:32:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9b4182ece03148ca",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-checkpoint] LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
+      "summary": "",
+      "published": "2026-06-25T18:25:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d558794d8b825254",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[justhtml] justhtml: to_markdown() code-span blank-line breakout enables XSS",
+      "summary": "",
+      "published": "2026-06-25T17:35:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8234b674a34538cb",
       "source": "github-advisory-pip",
@@ -177,17 +367,17 @@
       }
     },
     {
-      "id": "c19676b86da98a31",
-      "source": "github-advisory-pip",
+      "id": "3b53943c40a38f3f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "title": "[neotoma] neotoma has tenant isolation gap in relationship query endpoints",
       "summary": "",
-      "published": "2026-06-23T17:15:14.000Z",
+      "published": "2026-06-25T17:46:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +386,17 @@
       }
     },
     {
-      "id": "8de7e0f76a87cf28",
-      "source": "github-advisory-pip",
+      "id": "f9890f4c0aa59b1c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[zeroconf] zeroconf: Unvalidated rdlength in record payload readers allows LAN-local cache corruption via crafted mDNS packet",
+      "title": "[i18next-fs-backend] i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
       "summary": "",
-      "published": "2026-06-22T23:07:44.000Z",
+      "published": "2026-06-25T17:28:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qc2x-6f54-m6h9",
+      "url": "https://github.com/advisories/GHSA-2933-q333-qg83",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +405,17 @@
       }
     },
     {
-      "id": "59bd6cfd9423903a",
-      "source": "github-advisory-pip",
+      "id": "3a3839fc59371491",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[glances] Glances: XML-RPC Server Missing Host Header Validation Enables DNS Rebinding Attack",
+      "title": "[i18next-http-middleware] i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
       "summary": "",
-      "published": "2026-06-22T21:31:44.000Z",
+      "published": "2026-06-25T17:28:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w856-8p3r-p338",
+      "url": "https://github.com/advisories/GHSA-f49m-vf83-692w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,112 +424,17 @@
       }
     },
     {
-      "id": "cf9b3375e3e7bf64",
-      "source": "github-advisory-pip",
+      "id": "c3e94adb39820177",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[glances] Glances: XML-RPC Multi-Origin CORS Configuration Silently Falls Back to Wildcard (Incomplete Fix for CVE-2026-33533)",
+      "title": "[@anthropic-ai/claude-code] @anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
       "summary": "",
-      "published": "2026-06-22T21:27:24.000Z",
+      "published": "2026-06-25T16:53:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-87qc-fj39-wccr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "616996bb0c602e88",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[glances] Glances has Insecure Pickle Deserialization in its Version Cache that Leads to Arbitrary Code Execution",
-      "summary": "",
-      "published": "2026-06-22T21:21:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9837-48hr-q32j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c0bdf5d9b6be4c24",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[glances] Glances is Vulnerable to Command Injection via KVM/QEMU VM Domain Names in glances/plugins/vms/engines/virsh.py",
-      "summary": "",
-      "published": "2026-06-22T21:14:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v5r2-qh84-fjx5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0507df8c3391e286",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[motioneye] motionEye: Authentication possible via password hash",
-      "summary": "",
-      "published": "2026-06-22T20:59:31.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r3cw-c95m-wfh9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "205cb3df835452d8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[comfyui-manager] ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "summary": "",
-      "published": "2026-06-22T19:58:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-95pq-hr8p-f5g7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1ad03dbee7f7bd91",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[comfyui-manager] Duplicate Advisory: ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "summary": "",
-      "published": "2026-01-05T18:30:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2hc9-cc65-xwj8",
+      "url": "https://github.com/advisories/GHSA-4vp2-6q8c-pvq2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -625,82 +720,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "03742f9ea8d4263e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@merill/lokka] Lokka: Azure Resource Manager URL path validation issue",
-      "summary": "",
-      "published": "2026-06-19T22:10:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g2gw-q38m-vjfc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "18197bc5bc4cc7a5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
-      "summary": "",
-      "published": "2026-06-19T22:10:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ca7bfe00a68162f7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
-      "summary": "",
-      "published": "2026-06-19T21:43:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "408accff5c8244ab",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@zenalexa/unicli] Uni-CLI: Legacy HTTP MCP transport accepted browser-originated localhost requests",
-      "summary": "",
-      "published": "2026-06-19T21:43:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
