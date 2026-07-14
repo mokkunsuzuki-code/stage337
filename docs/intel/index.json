@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-13T02:46:43.826507+00:00",
+  "generated_at": "2026-07-14T02:29:38.332771+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 31,
   "items": [
+    {
+      "id": "1674743c44486f0c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[app-store-server-library] Apple App Store Server Python Library: SignedDataVerifier accepts stale OCSP GOOD responses and can bypass certificate revocation checks",
+      "summary": "",
+      "published": "2026-07-13T23:49:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8f6j-263m-g72x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f96855256fd466f4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[json-repair] json_repair: Circular JSON Schema `$ref` causes unbounded CPU DoS",
+      "summary": "",
+      "published": "2026-07-13T23:41:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xf7x-x43h-rpqh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9392677128d0367b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
+      "summary": "",
+      "published": "2026-07-13T18:38:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9e4a663878290e5b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
+      "summary": "",
+      "published": "2026-07-13T18:37:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff911d44c20906d0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
+      "summary": "",
+      "published": "2026-07-13T18:37:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "469ef6694296240a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[jupyter-server] jupyter-server is vulnerable to CORS origin validation bypass when the `allow_origin_pat` configuration is used",
+      "summary": "",
+      "published": "2026-06-03T18:33:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v42x-x7jp-845h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0865e5ce6530a6a4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[django] Django fails to prevent reuse of a partially-initialized connection after a failed `STARTTLS` handshake",
+      "summary": "",
+      "published": "2026-06-03T15:30:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mm6v-q8q9-pgcf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "efac59e803941be2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[transformers] huggingface/transformers: Arbitrary Code Execution During Model Initialization in the LightGlue Model Loading Path",
+      "summary": "",
+      "published": "2026-06-03T15:30:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fgcw-684q-jj6r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c81d483984fed203",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
+      "summary": "",
+      "published": "2026-07-13T17:20:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4e01ec93af697409",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[geonode] GeoNode: Stored XSS to full account takeover",
+      "summary": "",
+      "published": "2026-07-13T16:44:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rwcv-whm8-fmxm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "2e2ab3018a942890",
       "source": "github-advisory-pip",
@@ -17,367 +207,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-xh68-hfp5-5x5m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a7266fc6c733437a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[daphne] daphne: Unauthenticated attackers can cause excessive memory consumption by sending arbitrarily large WebSocket messages/frames",
-      "summary": "",
-      "published": "2026-06-03T15:30:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rrc9-mx66-ffcm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "93846fbfb656cd80",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[clauster] Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
-      "summary": "",
-      "published": "2026-07-10T20:37:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fdeccb47d8859032",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
-      "summary": "",
-      "published": "2026-07-10T19:34:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "abd307679f82dd64",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary server-side file read via attachment upload",
-      "summary": "",
-      "published": "2026-07-10T19:34:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "732e45c8e8a9f845",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[BabelDOC] BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
-      "summary": "",
-      "published": "2026-07-10T19:32:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3b3edc39f86d6236",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: Environment variable injection in AI Gateway secrets enables server-side credential exfiltration",
-      "summary": "",
-      "published": "2026-06-03T09:30:28.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g35p-px32-whv6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "07610312b851b8ef",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[credsweeper] CredSweeper: Recursive archive size-limit bypass in deep scanner allows crafted compressed inputs to exhaust resources",
-      "summary": "",
-      "published": "2026-07-10T19:25:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9mqm-qcwf-5qhg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2d66a9464f4e1442",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mcp-atlassian] MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
-      "summary": "",
-      "published": "2026-07-10T18:01:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c939bb4236519ffc",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[code-index-mcp] Code Index MCP is vulnerable to Uncontrolled Resource Consumption",
-      "summary": "",
-      "published": "2026-06-03T00:30:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-647r-72hf-4vmh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "608adc5b7241fe69",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mistune]  Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
-      "summary": "",
-      "published": "2026-07-09T23:52:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qcq2-496w-v96p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "04ff641a4ce8a4ed",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[psd-tools] psd-tools vulnerable to arbitrary file write via smart-object filename",
-      "summary": "",
-      "published": "2026-07-09T23:20:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2rmg-vrx8-9j2f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "513513ec34687053",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[py_rattler] Rattler vulnerable to package cache path traversal via conda package build string",
-      "summary": "",
-      "published": "2026-07-09T23:20:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h672-p7h7-97v9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9e5bc1b5da0b753e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[jupyter-server] Jupyter Server vulnerable to Path Traversal via incorrect root directory boundary check in _get_os_path()",
-      "summary": "",
-      "published": "2026-06-02T12:31:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gf7q-q4j7-hp7c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e7e0cb1e0ddbae92",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has no certificate validation on SMTP STARTTLS connections",
-      "summary": "",
-      "published": "2026-06-01T09:31:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-799x-qp47-8qwq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "204823adceebdca7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "summary": "",
-      "published": "2026-06-01T06:30:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mv8x-fg99-32mf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "177f1ee6db6c43f1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible infinite loop when processing threads/articles in writer",
-      "summary": "",
-      "published": "2026-07-09T21:09:53.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "45c0cb5633fe7240",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has an Authorization Bypass Through User-Controlled Key",
-      "summary": "",
-      "published": "2026-06-01T09:31:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qphr-3mvq-v466",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e823c10328f8990a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has a Deserialization of Untrusted Data vulnerability",
-      "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wr76-29cr-67w8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a1545b6999bb78e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
-      "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cg3x-89rc-x9mw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
