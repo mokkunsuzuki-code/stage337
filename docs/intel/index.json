@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-16T02:35:00.592989+00:00",
+  "generated_at": "2026-07-17T02:36:54.465187+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 32,
   "items": [
+    {
+      "id": "a38d3db343ea55d8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
+      "summary": "",
+      "published": "2026-06-16T14:34:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "793057323b756dc6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: WebSocket server transport does not support Host/Origin validation",
+      "summary": "",
+      "published": "2026-07-16T20:14:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vj7q-gjh5-988w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "486b519d0b862b6c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: HTTP transports serve session requests without verifying the authenticated principal",
+      "summary": "",
+      "published": "2026-07-16T19:58:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jpw9-pfvf-9f58",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4d62fbbc99df5c96",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: Experimental task handlers allow any client to access and cancel other clients' tasks",
+      "summary": "",
+      "published": "2026-07-16T19:56:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hvrp-rf83-w775",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "115a1a21888f6cd8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ansible-core] ansible-core: Argument injection in ansible-galaxy role install leads to arbitrary code execution",
+      "summary": "",
+      "published": "2026-06-05T09:33:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w8p5-mx5w-cpqj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "d11049c6e906a247",
       "source": "github-advisory-pip",
@@ -207,139 +302,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-vqwp-45wm-r9r5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "33424ff44c191be8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
-      "summary": "",
-      "published": "2026-06-04T15:30:40.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "018d56963a98933e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: Deterministic sampling in dataset digest enables predictable collisions",
-      "summary": "",
-      "published": "2026-06-04T12:30:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5qmp-p3c4-72qj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b6b40c5d7edc7817",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langbot] LangBot: Authenticated RCE Via MCP Configuration",
-      "summary": "",
-      "published": "2026-07-15T17:39:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a38ffebe02d27059",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[garminconnect] garminconnect Has Insecure Permission Assignment for Garmin OAuth Token Store",
-      "summary": "",
-      "published": "2026-07-15T17:33:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wjhr-76vg-2hvc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f4118ec5ab998802",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ms-swift] ms-swift: Image Cache Hash Collision via Missing Dimension Metadata",
-      "summary": "",
-      "published": "2026-06-04T12:30:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-prfw-69r3-wqxf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4b197b0351dfe936",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[netlicensing-mcp] NetLicensing-MCP: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
-      "summary": "",
-      "published": "2026-07-14T20:47:19.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x9vc-9ffq-p3gj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d2d636ee45a714da",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "summary": "",
-      "published": "2026-06-04T06:30:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
