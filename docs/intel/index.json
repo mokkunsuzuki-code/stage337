@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-27T02:54:09.345335+00:00",
+  "generated_at": "2026-07-28T02:31:30.592476+00:00",
   "mode": "safe-metadata-only",
   "item_count": 36,
   "items": [
+    {
+      "id": "24027c19b865f30c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nanobot-ai] Nanobot contains a server-side request forgery vulnerability in the web_fetch tool",
+      "summary": "",
+      "published": "2026-06-01T21:30:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-434r-7c99-hwf3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "a75c690068655c55",
       "source": "github-advisory-pip",
@@ -367,17 +386,17 @@
       }
     },
     {
-      "id": "3ed1685d787632bf",
-      "source": "github-advisory-pip",
+      "id": "1df6081ea978224f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
+      "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
       "summary": "",
-      "published": "2026-07-24T16:59:44.000Z",
+      "published": "2026-06-11T21:31:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
+      "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -663,25 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-2xgg-r2wc-c5r2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "88c3e0db205cd830",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@budibase/server]  Budibase: NoSQL Injection via JSON Parameter Interpolation in MongoDB Query Execution",
-      "summary": "",
-      "published": "2026-07-24T21:25:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qw6m-8fw2-2v64",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
