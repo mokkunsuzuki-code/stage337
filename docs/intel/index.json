@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-29T05:51:57.337506+00:00",
+  "generated_at": "2026-08-30T03:55:23.320827+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 27,
+  "item_count": 37,
   "items": [
     {
       "id": "1e608e0aff33bb8c",
@@ -511,6 +511,203 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c00f668e1e1702b9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures",
+      "published": "2026-08-27T17:59:30Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27455v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a0d6a4419427d06f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowl",
+      "published": "2026-08-27T17:59:11Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27454v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "332c47fa7d81b0f3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to control actions across services. We examine a mechanism in which a language model maps actions to plain-language consequence categories with user-authored \"allow\", \"ask\", or \"never\" rules. We ask what is gained and lost when decisions are made in advance as reusable rules rather than",
+      "published": "2026-08-27T17:56:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2608.27443v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2a0f301d2ecd6419",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review sce",
+      "published": "2026-08-27T17:56:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27442v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62fbd7423af8b103",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unc",
+      "published": "2026-08-27T17:55:33Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.27439v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4a8cb212bc9bf506",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain does not satisfy both cheaply. We present Persona-Execution Separation (PES): persona and execution reside in different trust domains, connected by a governed contract bridge. The persona is singly-homed and may drift; execution is faceless and audited. Status summaries may return;",
+      "published": "2026-08-27T17:50:07Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.27427v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d7369f4aaf8cb552",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
+      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable security judgment. We evaluate ModelScan, ModelAudit, and Fickling using a controlled, artifact-backed benchmark on a synthetic corpus of 170 Pickle and PyTorch focused artifacts across 145 specimen families, 135 of which have binary security ground truth and 10 of which are intentional",
+      "published": "2026-08-27T17:49:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.27424v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "664b6eb860b257ab",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) significantly improves LLM reasoning but often causes a drop in policy entropy, leading to narrowed reasoning coverage and degraded pass@$k$ for large $k$. While existing methods mitigate this entropy collapse through algorithmic regularizations, cross-model non-parametric perturbation is also neglected. In this work, we propose a simple yet effective approach to preserve the generative diversity of LLMs during RLVR. Instead of relying solely",
+      "published": "2026-08-27T17:45:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27420v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "79789483fb966d73",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an analogous mechanism for visual retrieval. We answer affirmatively by introducing Visual Retrieval Heads (VRHs), a small subset of attention heads (about 1.7-2.6%) that are causally responsible for ground",
+      "published": "2026-08-27T17:43:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2608.27417v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "183c7d41c615af5f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Reservoir: A Large-Scale Simulated Dataset for Training and Evaluating Epidemiological Models",
+      "summary": "Large-scale, standardized datasets have driven many advances in AI-based scientific modeling, from protein structure prediction to natural language processing. Infectious disease epidemiology is increasingly adopting AI methods for forecasting, surveillance, and outbreak analytics, but the time-series data available to train them remains orders of magnitude smaller than the corpora behind the advances seen in other fields. Because the scope of real-world epidemiological data cannot practically r",
+      "published": "2026-08-27T17:36:46Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "q-bio.PE"
+      ],
+      "url": "https://arxiv.org/abs/2608.27408v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
