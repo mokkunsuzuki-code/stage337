@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-15T03:39:10.185038+00:00",
+  "generated_at": "2026-09-16T03:36:03.998834+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 38,
   "items": [
     {
       "id": "0019cc9dbc4e81e4",
@@ -386,6 +386,63 @@
       }
     },
     {
+      "id": "9f3a9c8118ca9b58",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
+      "summary": "",
+      "published": "2026-09-15T20:57:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bc1d73cdd4c534af",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab: DNS rebinding reaches local Streamable HTTP MCP transport",
+      "summary": "",
+      "published": "2026-09-15T20:54:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vmp7-252j-cwp7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d554eac43caf890",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab has multiple safety-control bypasses: execute_graphql read-only + allow-list bypass, unauthenticated transports, session-exhaustion DoS",
+      "summary": "",
+      "published": "2026-09-15T20:48:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5648-rgj9-v224",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "630cb1fdf8ac0988",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -663,25 +720,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2666326e50a683fe",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
-      "summary": "",
-      "published": "2026-09-10T21:13:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
