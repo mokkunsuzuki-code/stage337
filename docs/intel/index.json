@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-28T03:57:13.242818+00:00",
+  "generated_at": "2026-09-29T04:32:05.856990+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 28,
   "items": [
     {
       "id": "d6a0074c62869377",
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "3b8c4b049fcb7a67",
+      "id": "5d113feadc54ef09",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
       "summary": "",
-      "published": "2026-09-25T19:32:05.000Z",
+      "published": "2026-09-28T21:56:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
+      "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "6b0922dc48188bc3",
+      "id": "6d501c6e286054f4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting ",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
       "summary": "",
-      "published": "2026-09-25T19:31:08.000Z",
+      "published": "2026-09-28T21:42:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "ec79b4691c2b43f8",
+      "id": "ca10f7db5ff4e2cc",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
+      "title": "[multer] multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
       "summary": "",
-      "published": "2026-09-17T14:49:56.000Z",
+      "published": "2026-09-28T21:34:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
+      "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "3fb8ab484e493c21",
+      "id": "c7d834879dfe4c2a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Duplicate Advisory: Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "title": "[morgan] morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
       "summary": "",
-      "published": "2026-09-08T00:30:22.000Z",
+      "published": "2026-09-28T21:33:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qjrq-cvv4-3g9w",
+      "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "a022dbaa4897e0de",
+      "id": "ba61930cef6d9906",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Duplicate Advisory: Knowns Sandbox Escape: Unauthenticated Header Injection Grants AI Agent Unrestricted Access to Host Filesystem",
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
       "summary": "",
-      "published": "2026-09-10T18:31:45.000Z",
+      "published": "2026-09-28T21:31:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w47m-jpv2-qfw5",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "b280a0dde0f0aedd",
+      "id": "2576e179b60b0d0c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[parse-server] Parse Server's GraphQL WebSocket endpoint bypasses security middleware",
+      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
       "summary": "",
-      "published": "2026-03-13T20:04:44.000Z",
+      "published": "2026-09-28T21:24:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p2x3-8689-cwpg",
+      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "97f7d6034bf7cbe9",
+      "id": "2400c7afcd27c05c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[cline] Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
       "summary": "",
-      "published": "2026-09-24T19:48:34.000Z",
+      "published": "2026-09-28T21:23:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
+      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "0122e2f4254ad9fa",
+      "id": "4693262c01f10825",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@rsdoctor/rspack-plugin] @rsdoctor/rspack-plugin has Unauthenticated HTTP API that Exposes Project Source Code and Build Metadata",
+      "title": "[ip-address] ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
       "summary": "",
-      "published": "2026-09-24T19:42:10.000Z",
+      "published": "2026-09-28T20:43:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3",
+      "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "795a9d7b09bc433d",
+      "id": "265f05f689b0f132",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@bytebase/dbhub] @bytebase/dbhub's read-only mode does not prevent database writes",
+      "title": "[ip-address] ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
       "summary": "",
-      "published": "2026-09-24T19:37:59.000Z",
+      "published": "2026-09-28T20:43:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mwwr-p57h-56pf",
+      "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,169 +519,17 @@
       }
     },
     {
-      "id": "22f883560c5ed0a5",
+      "id": "ac17b69b5965bded",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@bytebase/dbhub] DBHub HTTP transport DNS rebinding allows unauthenticated browser-origin SQL execution",
+      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
       "summary": "",
-      "published": "2026-09-24T19:36:57.000Z",
+      "published": "2026-09-28T20:39:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fm8p-53ww-hf6w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "417162ba82cad80c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[xhtml-purifier] xhtml-purifier has HTML attribute-injection (sanitizer bypass) that leads to XSS",
-      "summary": "",
-      "published": "2026-09-24T19:33:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j8r4-32c5-33rc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c6609771db9272d1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox-mobile] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d47c0f104e693115",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox-client] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "480e8a512695a117",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "641cee998a47840b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[cyberchef] CyberChef: Prototype pollution in Series Chart operation",
-      "summary": "",
-      "published": "2026-09-24T19:24:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fx6f-382r-j72c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a4cf5894dcecc183",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@aws/lsp-codewhisperer] Language Servers for AWS vulnerable to arbitrary file write",
-      "summary": "",
-      "published": "2026-09-24T19:15:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6v3r-4p5c-mrp5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3ac5fbec87c9aabd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@aws/lsp-codewhisperer] Language Servers for AWS Vulnerable to Arbitrary Code Execution",
-      "summary": "",
-      "published": "2026-09-24T19:13:53.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xhcr-j4j9-3gh7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d2e6227a0f9f4a3c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[image-size] image-size: JXL and HEIF parsers allow denial of service through infinite loops",
-      "summary": "",
-      "published": "2026-06-10T15:31:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5p2g-fcmc-qvqq",
+      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
