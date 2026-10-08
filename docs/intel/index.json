@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-07T04:35:43.627056+00:00",
+  "generated_at": "2026-10-08T04:45:59.704323+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 32,
+  "item_count": 38,
   "items": [
     {
-      "id": "08df90161dfee1ce",
+      "id": "d2b17faa32d4e6bc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mlflow] MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
+      "title": "[PraisonAI] PraisonAI: Prompt Injection Defense Bypassed for HIGH-Level Threats",
       "summary": "",
-      "published": "2026-05-26T13:30:39.000Z",
+      "published": "2026-10-07T20:43:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8c7q-86fq-vvmh",
+      "url": "https://github.com/advisories/GHSA-fj8f-m44g-c479",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "7f9f904922f421c5",
+      "id": "2a515a44584d8467",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[openapi-python-client] openapi-python-client: Malicious OpenAPI Documents can cause Arbitrary Code Generation",
+      "title": "[praisonai] Duplicate Advisory: PraisonAI: Prompt Injection Defense Bypassed for HIGH-Level Threats",
       "summary": "",
-      "published": "2026-10-06T15:32:53.000Z",
+      "published": "2026-07-11T15:30:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5293-mq8x-g3xj",
+      "url": "https://github.com/advisories/GHSA-5r2q-3wg3-57m2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "7794309f8334d28b",
+      "id": "055b8bbd3cbc42bc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vyper] Vyper: Memory corruption using function calls within tuples / nested calls",
+      "title": "[docling-slim] Docling: Configured HTTP headers sent to every remote image host named by a document",
       "summary": "",
-      "published": "2026-10-06T15:22:29.000Z",
+      "published": "2026-10-07T20:42:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2r3x-4mrv-mcxf",
+      "url": "https://github.com/advisories/GHSA-p3fw-7699-7926",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "bfcc1dfaf690a59e",
+      "id": "be4e9086d88066dc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vyper] Vyper: Call stack corruption when passing complex type containing non-base type members as argument",
+      "title": "[docling] Docling: Configured HTTP headers sent to every remote image host named by a document",
       "summary": "",
-      "published": "2026-10-06T15:22:23.000Z",
+      "published": "2026-10-07T20:42:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4v7v-gqf9-ww2g",
+      "url": "https://github.com/advisories/GHSA-p3fw-7699-7926",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "1ba261f9183578f1",
+      "id": "7c0a828574f3469f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vyper] Vyper: Return inside for loop more than 1 level deep",
+      "title": "[docling-slim] Docling has SSRF guard bypass in remote resource fetching (DNS rebinding / multi-record resolution; no IP validation in HTML render mode)",
       "summary": "",
-      "published": "2026-10-06T15:20:10.000Z",
+      "published": "2026-10-07T20:42:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vg88-3v92-rjx2",
+      "url": "https://github.com/advisories/GHSA-pc36-qwjq-x68c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "723a46cbaa0aa520",
+      "id": "b86b16b2640dcfc6",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[docling] Duplicate Advisory:  Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
+      "title": "[docling] Docling has SSRF guard bypass in remote resource fetching (DNS rebinding / multi-record resolution; no IP validation in HTML render mode)",
       "summary": "",
-      "published": "2026-10-06T00:32:49.000Z",
+      "published": "2026-10-07T20:42:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f4ch-vxwc-3p2m",
+      "url": "https://github.com/advisories/GHSA-pc36-qwjq-x68c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "dbc2c18d351963eb",
+      "id": "fcfc6090ad5258fe",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[docling-slim] Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
+      "title": "[docling-slim] Docling has arbitrary file read/write (and command execution when shell-escape is enabled) when rendering untrusted TikZ with the opt-in Tectonic engine",
       "summary": "",
-      "published": "2026-10-06T13:41:16.000Z",
+      "published": "2026-10-07T20:42:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3cr3-8m4c-fpxw",
+      "url": "https://github.com/advisories/GHSA-x3q2-h9hx-4r4j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "f3d0325fd2f7d910",
+      "id": "ff04280926defeae",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[docling] Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
+      "title": "[docling] Docling has arbitrary file read/write (and command execution when shell-escape is enabled) when rendering untrusted TikZ with the opt-in Tectonic engine",
       "summary": "",
-      "published": "2026-10-06T13:41:16.000Z",
+      "published": "2026-10-07T20:42:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3cr3-8m4c-fpxw",
+      "url": "https://github.com/advisories/GHSA-x3q2-h9hx-4r4j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "77739c652788fc12",
+      "id": "7de119b722fe9731",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lfx-docling] Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, Docling)",
+      "title": "[docling-slim] Docling: Crafted DoclingDocument JSON embeds local image files into converted output",
       "summary": "",
-      "published": "2026-10-06T13:39:57.000Z",
+      "published": "2026-10-07T20:41:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+      "url": "https://github.com/advisories/GHSA-p944-4xh2-x776",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "b7261b6c2ea015cf",
+      "id": "63a50c3a2fb432cc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lfx] Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, Docling)",
+      "title": "[docling] Docling: Crafted DoclingDocument JSON embeds local image files into converted output",
       "summary": "",
-      "published": "2026-10-06T13:39:57.000Z",
+      "published": "2026-10-07T20:41:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+      "url": "https://github.com/advisories/GHSA-p944-4xh2-x776",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "c110360d777fa308",
+      "id": "dbd77e3b6ba1ba0e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow-base] Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, Docling)",
+      "title": "[docling-slim] Docling: Unbounded table rowspan/colspan in HTML, JATS, ODS and BoxNote backends causes CPU/memory exhaustion",
       "summary": "",
-      "published": "2026-10-06T13:39:57.000Z",
+      "published": "2026-10-07T20:41:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+      "url": "https://github.com/advisories/GHSA-cgc7-9qp3-86m3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "85fd93020c85027d",
+      "id": "82dc3b19362bede6",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, Docling)",
+      "title": "[docling] Docling: Unbounded table rowspan/colspan in HTML, JATS, ODS and BoxNote backends causes CPU/memory exhaustion",
       "summary": "",
-      "published": "2026-10-06T13:39:57.000Z",
+      "published": "2026-10-07T20:41:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+      "url": "https://github.com/advisories/GHSA-cgc7-9qp3-86m3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "1975a52f077e0d03",
+      "id": "0b2e388c4706f94c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: PythonREPLComponent executes unsandboxed Python code, enabling authenticated RCE and privilege escalation",
+      "title": "[docling-slim] Docling imports plugin entry points before the allow_external_plugins check",
       "summary": "",
-      "published": "2026-10-06T13:38:28.000Z",
+      "published": "2026-10-07T20:40:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8qpj-27x8-pwpq",
+      "url": "https://github.com/advisories/GHSA-9jxx-vjrv-h2rq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "09f646a8c6863bf4",
+      "id": "21c5491c76a733dd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langlow] Duplicate Advisory: Langflow: PythonREPLComponent executes unsandboxed Python code, enabling authenticated RCE and privilege escalation",
+      "title": "[docling] Docling imports plugin entry points before the allow_external_plugins check",
       "summary": "",
-      "published": "2026-06-22T15:30:43.000Z",
+      "published": "2026-10-07T20:40:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-frvg-495w-m47v",
+      "url": "https://github.com/advisories/GHSA-9jxx-vjrv-h2rq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "0b3d1f10b8ecd7a0",
+      "id": "3fdc43157c281ab3",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[docling-slim] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
+      "title": "[lfx] Langflow: OS command injection (RCE) via arbitrary command in MCP stdio server configuration",
       "summary": "",
-      "published": "2026-10-06T00:02:27.000Z",
+      "published": "2026-10-07T20:36:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
+      "url": "https://github.com/advisories/GHSA-w794-rj3p-xv45",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "25cd9c698a4e0074",
+      "id": "493fddd02dcba377",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[docling] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
+      "title": "[langflow-base] Langflow: OS command injection (RCE) via arbitrary command in MCP stdio server configuration",
       "summary": "",
-      "published": "2026-10-06T00:02:27.000Z",
+      "published": "2026-10-07T20:36:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
+      "url": "https://github.com/advisories/GHSA-w794-rj3p-xv45",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "cef70f0abdfcfb8c",
+      "id": "95f2858119e1a17e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Mirrored multimodal IPC caches desync after a rejected request — a later request reusing the same media hash trips a receiver assertion in the engine core",
+      "title": "[langflow] Langflow: OS command injection (RCE) via arbitrary command in MCP stdio server configuration",
       "summary": "",
-      "published": "2026-10-06T00:02:05.000Z",
+      "published": "2026-10-07T20:36:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-ph3r-5jfg-f84f",
+      "url": "https://github.com/advisories/GHSA-w794-rj3p-xv45",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "efdea8460d8501f9",
+      "id": "288ee6cf97cdf1b9",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Harmony tool continuations drop `cache_salt` — restoring a cross-tenant prefix-cache membership oracle",
+      "title": "[langflow-base] Langflow : Cross-user flow access and vertex execution via deprecated /api/v1/build/{flow_id}/vertices endpoints",
       "summary": "",
-      "published": "2026-10-06T00:02:02.000Z",
+      "published": "2026-10-07T20:36:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-935w-9g4m-p28p",
+      "url": "https://github.com/advisories/GHSA-gh98-4phw-6fmw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "ae38a0126ed559eb",
+      "id": "c1ec6aba82143487",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Werkzeug] Werkzeug safe_join() allows Windows special device names",
+      "title": "[langflow] Langflow : Cross-user flow access and vertex execution via deprecated /api/v1/build/{flow_id}/vertices endpoints",
       "summary": "",
-      "published": "2026-10-05T23:48:39.000Z",
+      "published": "2026-10-07T20:36:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g6x2-hccm-hh4m",
+      "url": "https://github.com/advisories/GHSA-gh98-4phw-6fmw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "d57199f97c4c4ae7",
+      "id": "298623f5878d2bf8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pymongo] PyMongo: PYTHON-5996 Heap out-of-bounds write via signed size overflow in BSON document encoding",
+      "title": "[langflow] Langflow has Authenticated Cross-Project File Disclosure via Unscoped MCP Resource Handlers",
       "summary": "",
-      "published": "2026-10-05T23:47:10.000Z",
+      "published": "2026-10-07T20:35:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v4x9-3549-crwv",
+      "url": "https://github.com/advisories/GHSA-4hmc-cfm3-w43c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "aa76855c5b691969",
+      "id": "4dd36596dd2c1ee1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] knowns OS Command Injection via Insecure LSP Binary Path Config in .knowns/config.json",
+      "title": "[ghost] Ghost: Remote Code Execution via Bookmark Card Images",
       "summary": "",
-      "published": "2026-10-06T18:58:38.000Z",
+      "published": "2026-10-07T20:43:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mc52-mwq4-vfx3",
+      "url": "https://github.com/advisories/GHSA-788w-68h3-cvxp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "0467b38aa9475483",
+      "id": "94b8682d35e35883",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Duplicate Advisory: knowns vulnerable to command injection",
+      "title": "[ghost] Ghost: Stored XSS via Embed Card Previews",
       "summary": "",
-      "published": "2026-09-08T00:30:22.000Z",
+      "published": "2026-10-07T20:43:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6ph4-r249-58p2",
+      "url": "https://github.com/advisories/GHSA-69qc-f5m6-889c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "e6f3a9b1003d5e52",
+      "id": "5c10f295c43978f9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload didn't enforce field-level password update restrictions",
+      "title": "[ghost] Ghost : Stored XSS via SVG Files in Content Imports",
       "summary": "",
-      "published": "2026-10-06T16:21:52.000Z",
+      "published": "2026-10-07T20:43:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
+      "url": "https://github.com/advisories/GHSA-hqq2-xqr2-fmx2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "8de5eb29ab2651c4",
+      "id": "56e744ef9e56df79",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
+      "title": "[ghost] Ghost: Regular Expression Denial of Service in External Media Inliner",
       "summary": "",
-      "published": "2026-10-06T16:18:27.000Z",
+      "published": "2026-10-07T20:43:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
+      "url": "https://github.com/advisories/GHSA-9m4w-fmjw-fvjq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "1f8ecdb494c62173",
+      "id": "1caa623cc602f0ff",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload vulnerable to API key disclosure through ordinary document reads",
+      "title": "[ghost] Ghost: Regular Expression Denial of Service in Content Import",
       "summary": "",
-      "published": "2026-10-06T16:18:16.000Z",
+      "published": "2026-10-07T20:42:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
+      "url": "https://github.com/advisories/GHSA-fwh9-qg68-vxp4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "8d43ccab62b54d4b",
+      "id": "218644781fe14c35",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@payloadcms/plugin-ecommerce] Payload Ecommerce has an order confirmation validation issue",
+      "title": "[@deepseek-ai/dsh-client-connection] DeepSeek Harness contains an authentication bypass vulnerability in local HTTP control-plane API",
       "summary": "",
-      "published": "2026-10-06T16:17:54.000Z",
+      "published": "2026-09-08T18:32:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
+      "url": "https://github.com/advisories/GHSA-8m2g-8cgm-3vcp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "5d7b65831ac254f0",
+      "id": "15a39a8fb2a85b74",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload relationship-query authorization bypass",
+      "title": "[ghost] Ghost: Server-Side Request Forgery in Bookmark Fetching",
       "summary": "",
-      "published": "2026-10-06T16:17:32.000Z",
+      "published": "2026-10-07T20:35:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
+      "url": "https://github.com/advisories/GHSA-322m-ff4g-9vx9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "539a83ee5bcf39ff",
+      "id": "a2e57c7686328198",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload: Token refresh and password reset responses may expose restricted user fields",
+      "title": "[ghost] Ghost: Private IP Filtering Bypass via IPv6 Transition Addresses",
       "summary": "",
-      "published": "2026-10-06T16:17:28.000Z",
+      "published": "2026-10-07T20:35:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
+      "url": "https://github.com/advisories/GHSA-r7f2-6fj8-6fg2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "66ffe73ca1023813",
+      "id": "2ff3fa9fb3844e74",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[payload] Payload: Field access control bypass on auth collections",
+      "title": "[ghost] Ghost: Stored XSS via SVG Uploads Bypassing Sanitization",
       "summary": "",
-      "published": "2026-10-06T16:17:23.000Z",
+      "published": "2026-10-07T20:35:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
+      "url": "https://github.com/advisories/GHSA-8575-cr6v-7jh4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "5881c993848b4a6a",
+      "id": "3b6838b18a5d19a0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@payloadcms/plugin-stripe] Payload: Insufficient Access Control in Stripe REST Proxy",
+      "title": "[next] Next.js: Pending `use cache` fill can leak Draft Mode content into regular responses and persisted pages",
       "summary": "",
-      "published": "2026-10-06T16:09:46.000Z",
+      "published": "2026-10-07T20:32:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
+      "url": "https://github.com/advisories/GHSA-3w37-wq28-93x7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "c71a5a7a7ca65307",
+      "id": "c28f071010be4059",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@payloadcms/plugin-mcp] Payload: Improper access control for MCP API keys",
+      "title": "[next] Next.js has cache poisoning of SSG and ISR pages in self-hosted applications",
       "summary": "",
-      "published": "2026-10-06T16:09:31.000Z",
+      "published": "2026-10-07T20:32:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2q76-m6w6-qgc6",
+      "url": "https://github.com/advisories/GHSA-4jqv-mc3x-m676",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,131 @@
       }
     },
     {
-      "id": "49c61cbe397c054f",
+      "id": "ead200175d2fb032",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@payloadcms/plugin-import-export] Payload: Prototype pollution in Payload Import Export plugin",
+      "title": "[next] Next.js has information disclosure in development server's Model Context Protocol endpoint",
       "summary": "",
-      "published": "2026-10-06T16:09:23.000Z",
+      "published": "2026-10-07T20:31:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
+      "url": "https://github.com/advisories/GHSA-39w2-rjm5-chcv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "799d5c1c9169f83c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next] Next.js has information disclosure in App Router metadata image routes via dynamicParams bypass",
+      "summary": "",
+      "published": "2026-10-07T20:31:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f87g-xv8r-7p7x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9cdbf41e91d60f3b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next] Next.js has cache poisoning in SSG/ISR rendering that leads to cross-user content substitution and persistent denial of service",
+      "summary": "",
+      "published": "2026-10-07T20:31:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mcj8-r9mp-w47p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0f9a149198e9c806",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next] Next.js has Server-Side Request Forgery in Image Optimization",
+      "summary": "",
+      "published": "2026-10-07T20:30:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cjq9-62q9-8jv4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "685e57e17c6f7c1f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@payloadcms/db-d1-sqlite] Payload: SQL injection in SQLite/Postgres",
+      "summary": "",
+      "published": "2026-10-07T20:30:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pj7x-6wpf-pgvp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "86a4b98c93f72be7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@payloadcms/db-sqlite] Payload: SQL injection in SQLite/Postgres",
+      "summary": "",
+      "published": "2026-10-07T20:30:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pj7x-6wpf-pgvp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a6f4f8d2f881f568",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@payloadcms/db-vercel-postgres] Payload: SQL injection in SQLite/Postgres",
+      "summary": "",
+      "published": "2026-10-07T20:30:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pj7x-6wpf-pgvp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
