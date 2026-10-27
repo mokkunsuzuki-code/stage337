@@ -1,10 +1,124 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-26T03:28:56.793955+00:00",
+  "generated_at": "2026-10-27T03:55:13.190666+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 35,
+  "item_count": 33,
   "items": [
+    {
+      "id": "599b378d4cbc2be6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[certifi] certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "summary": "",
+      "published": "2026-10-20T19:35:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4ef8e7bb9daba967",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
+      "summary": "",
+      "published": "2026-04-08T00:18:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "43d3be9d2e993fd3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI has vulnerable dependency on starlette via fastapi",
+      "summary": "",
+      "published": "2025-03-20T12:32:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w466-2wfc-8g58",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b68f26c06c4fc489",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI Stored Cross-Site Scripting Vulnerability",
+      "summary": "",
+      "published": "2024-08-08T00:31:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5jp3-wp5v-5363",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1625ddbfeaf57e09",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] open-webui Insecure Direct Object Reference (IDOR) vulnerability",
+      "summary": "",
+      "published": "2024-10-09T21:31:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xcvc-5hgv-phqg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b574441fab09a408",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "summary": "",
+      "published": "2026-08-20T18:45:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "e096ef14be5805b7",
       "source": "github-advisory-pip",
@@ -253,131 +367,17 @@
       }
     },
     {
-      "id": "3053e6fd2cbb6dec",
-      "source": "github-advisory-pip",
+      "id": "381326683611c63f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
+      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
       "summary": "",
-      "published": "2026-10-23T22:06:44.000Z",
+      "published": "2026-10-05T22:53:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c61a640e9df9c85e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock: SoftFileLock evicts a fresh lock file whose watched age another local user's pre-dated file passed on through inode reuse",
-      "summary": "",
-      "published": "2026-10-23T22:00:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2g95-wg33-c5x2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b274fd0b3c6ef28e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock: SoftFileLock stale-break restore follows a swapped-in symbolic link and hard-links a file of the user running the lock into the lock directory",
-      "summary": "",
-      "published": "2026-10-23T22:00:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-crv4-6mhj-j5jh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7d978b1341edb71e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock ReadWriteLock: SQLite reopens the lock database by name, so a planted symlink or journal file makes the lock user's process overwrite or unlink its own files",
-      "summary": "",
-      "published": "2026-10-23T21:59:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v4x8-3wr5-3wq8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "36d5ef25db7aa25d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pillow] Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
-      "summary": "",
-      "published": "2026-10-23T21:55:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5x8w-8jj5-q52h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e09fb5aa492373ad",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[Pillow] Pillow: Arrow export leaks stale heap memory when PILLOW_ALIGNMENT > 1",
-      "summary": "",
-      "published": "2026-10-23T21:53:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-654x-cwwv-5j9c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d3f6e44535e971ec",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[gitpython] Duplicate Advisory: GitPython: git-config section-name injection enables arbitrary config directives (core.sshCommand RCE)",
-      "summary": "",
-      "published": "2026-08-03T15:32:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9xx9-hw38-h2w9",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -625,44 +625,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-8c8m-p3m8-cjg8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "529cfd4ac45591ba",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer: A \";\" inside a quoted string or comment ends an address group early in addressparser, turning display text into a recipient",
-      "summary": "",
-      "published": "2026-10-23T21:51:52.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m943-m63m-w62w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e90f1520c2647962",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer: A \">\" inside a quoted local part ends an angle-addr early in addressparser, delivering to a domain the header does not name",
-      "summary": "",
-      "published": "2026-10-23T21:51:18.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-85x2-q946-cp5h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
