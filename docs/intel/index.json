@@ -1,10 +1,67 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-05T05:24:30.931453+00:00",
+  "generated_at": "2026-11-06T05:22:47.290143+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 38,
+  "item_count": 48,
   "items": [
+    {
+      "id": "5d74bf47a675f59b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[oauthlib] OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
+      "summary": "",
+      "published": "2026-10-27T13:30:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3jp2-3mrg-2vxc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "81bf3f7cd0d195fe",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[banks] Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
+      "summary": "",
+      "published": "2026-11-05T17:51:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7f291727c9235087",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[urwid] Duplicate Advisory: urwid: Insecure PRNG and Information Exposure in Web Display Backend",
+      "summary": "",
+      "published": "2026-07-18T15:31:50.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-83x9-8wvq-rrcp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8fa8e177238ef2c0",
       "source": "github-advisory-pip",
@@ -329,17 +386,17 @@
       }
     },
     {
-      "id": "b8f68467e8621ba5",
-      "source": "github-advisory-pip",
+      "id": "548037420549e589",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible long runtimes/large memory usage for encrypted PDF files",
+      "title": "[qwc2] QGIS QWC2 Cross-Site Scripting vulnerability",
       "summary": "",
-      "published": "2026-10-30T23:08:24.000Z",
+      "published": "2025-10-13T12:31:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+      "url": "https://github.com/advisories/GHSA-gxp8-m5rq-3m38",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +405,17 @@
       }
     },
     {
-      "id": "c81a30f50ee1ccf1",
-      "source": "github-advisory-pip",
+      "id": "873999da23caf51d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible large memory usage when parsing cross-reference streams",
+      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
       "summary": "",
-      "published": "2026-10-30T23:07:28.000Z",
+      "published": "2026-03-26T18:31:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +424,55 @@
       }
     },
     {
-      "id": "7a1df37032bdd222",
-      "source": "github-advisory-pip",
+      "id": "82337e2b6724975f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding",
+      "title": "[filecoin-pin] filecoin-pin: Unbounded DAG pinning can exhaust server resources",
       "summary": "",
-      "published": "2026-10-30T23:07:04.000Z",
+      "published": "2026-11-05T18:07:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+      "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8e9b3e0579e6b5a8",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui is Vulnerable to Command Injection via Multiple Parameters",
+      "summary": "",
+      "published": "2026-03-11T00:25:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f2fc-vc88-6w7q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "99ecd556d490a195",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Duplicate Advisory: INVITED users auto-promoted via SSO email match (invite-token bypass)",
+      "summary": "",
+      "published": "2026-09-26T15:31:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mgrx-3hqw-485h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +728,18 @@
       }
     },
     {
-      "id": "a5c698a27a26f7c4",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@enspirit/elo] Elo backends have code injection via unvalidated emission of programmatic AST fields",
-      "summary": "",
-      "published": "2026-11-03T17:48:09.000Z",
+      "id": "5c23fd6bfc849e21",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+      "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization,",
+      "published": "2026-11-05T18:59:48Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "astro-ph.EP",
+        "astro-ph.IM"
       ],
-      "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+      "url": "https://arxiv.org/abs/2611.08489v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +748,17 @@
       }
     },
     {
-      "id": "9a87b53f5aaaffc9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise] Duplicate Advisory : Flowise allows arbitrary file write to RCE",
-      "summary": "",
-      "published": "2026-06-26T00:32:05.000Z",
+      "id": "2d94663929e82c69",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
+      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main sample of 160 papers spanning four temporal periods and a separate purposive style-contrast sample ",
+      "published": "2026-11-05T18:59:33Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-c3hj-m5hq-59xw",
+      "url": "https://arxiv.org/abs/2611.08486v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +767,18 @@
       }
     },
     {
-      "id": "a95d1477b1f851bb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise] Duplicate Advisory: Flowise has unsandboxed remote code execution via Custom MCP",
-      "summary": "",
-      "published": "2026-06-26T00:32:05.000Z",
+      "id": "97b729c1e5665eea",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
+      "published": "2026-11-05T18:59:29Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.NE"
       ],
-      "url": "https://github.com/advisories/GHSA-q2xp-j85q-883h",
+      "url": "https://arxiv.org/abs/2611.08483v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +787,19 @@
       }
     },
     {
-      "id": "6773e9eaf1973f1d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise] Duplicate Advisory : Flowise has arbitrary file access due to missing chat flow id validation",
-      "summary": "",
-      "published": "2026-06-26T00:32:05.000Z",
+      "id": "1942b24768cd122d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the",
+      "published": "2026-11-05T18:58:17Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-w5r9-j49j-2m55",
+      "url": "https://arxiv.org/abs/2611.08478v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -709,17 +808,117 @@
       }
     },
     {
-      "id": "c4b592b43239980f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[lodash.omit] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "summary": "",
-      "published": "2026-04-01T23:50:27.000Z",
+      "id": "0c8c2a36f84dd050",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integra",
+      "published": "2026-11-05T18:55:31Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.AI",
+        "q-bio.NC"
       ],
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "url": "https://arxiv.org/abs/2611.08469v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a8570c3aae04a0a0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Joint Bayesian Inference for Extraction of Charmonium Long Distance Matrix Elements Using PYTHIA",
+      "summary": "We present a joint Bayesian extraction of the nonrelativistic QCD long-distance matrix elements (LDMEs) for $J/ψ$, $ψ(2S)$, and $χ_c$ production, using short-distance coefficients and feed-down structure implemented in PYTHIA 8.317. Rather than fitting each charmonium state separately, we construct channel-resolved responses that link parent production to daughter feed-down and infer all LDMEs simultaneously from 286 prompt charmonium measurements in $pp$ collisions at $\\sqrt{s}=5.02$-13 TeV at ",
+      "published": "2026-11-05T18:53:36Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.08463v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8a7aeb4a0550bab7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
+      "summary": "Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understanding where no one can confidently explain how a system works or predict the impact of a change. Intent debt is the lack of clearly articulated goals, constraints, and rationale that explain what the syst",
+      "published": "2026-11-05T18:48:06Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2611.08456v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b1d1e2b0c647717f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. With an external post-trained tea",
+      "published": "2026-11-05T18:47:05Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2611.08453v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0a59fadf29694465",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st",
+      "published": "2026-11-05T18:44:43Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.08449v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "585f5585008258bc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
+      "summary": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, ",
+      "published": "2026-11-05T18:34:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2611.08442v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
