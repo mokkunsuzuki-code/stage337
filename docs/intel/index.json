@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-06T05:22:47.290143+00:00",
+  "generated_at": "2026-11-07T04:51:41.054479+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 48,
+  "item_count": 38,
   "items": [
+    {
+      "id": "391676f9a491f557",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
+      "summary": "",
+      "published": "2026-05-06T00:31:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "973b6164a5475a51",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[misp-modules] misp-modules has unsafe remote resource fetching in expansion",
+      "summary": "",
+      "published": "2026-05-06T22:31:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7c17506130c66e1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
+      "summary": "",
+      "published": "2026-11-06T19:50:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32146e9ea085a3fd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has Unrestricted File Upload",
+      "summary": "",
+      "published": "2026-11-06T19:41:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3caa6933f1e47aba",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has OS command injection via uploaded file layer name",
+      "summary": "",
+      "published": "2026-11-06T19:39:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62f7428a6ed14951",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+      "summary": "",
+      "published": "2026-07-08T20:24:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "72164d7efda2607a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nbconvert] jupyter/nbconvert allows Cross-site Scripting (XSS) via unsanitized `text/vnd.mermaid` output in HTML exports",
+      "summary": "",
+      "published": "2026-06-26T12:30:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9754-6rhw-gj3h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "5d74bf47a675f59b",
       "source": "github-advisory-pip",
@@ -245,139 +378,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e3cfaaa48415896e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Model-artifact APIs bypass pathsec and touch files outside allowed roots",
-      "summary": "",
-      "published": "2026-09-02T14:35:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8mgp-746c-j5xp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0b9f79a8cf853497",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
-      "summary": "",
-      "published": "2026-10-30T23:13:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "799295db56015f31",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
-      "summary": "",
-      "published": "2026-10-30T23:13:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dd0073a330120169",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
-      "summary": "",
-      "published": "2026-10-30T23:12:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "983fb9f302bbb1fa",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[Authlib] Authlib RFC 7592 examples omit registration-access-token client binding",
-      "summary": "",
-      "published": "2026-10-30T23:09:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e3bb62eea2120d55",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible long runtimes when retrieving page labels",
-      "summary": "",
-      "published": "2026-10-30T23:08:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b9527284cb24eb54",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible large memory usage for exceptions in strict mode",
-      "summary": "",
-      "published": "2026-10-30T23:08:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -720,205 +720,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5c23fd6bfc849e21",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
-      "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization,",
-      "published": "2026-11-05T18:59:48Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.EP",
-        "astro-ph.IM"
-      ],
-      "url": "https://arxiv.org/abs/2611.08489v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2d94663929e82c69",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
-      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main sample of 160 papers spanning four temporal periods and a separate purposive style-contrast sample ",
-      "published": "2026-11-05T18:59:33Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2611.08486v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "97b729c1e5665eea",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
-      "published": "2026-11-05T18:59:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.NE"
-      ],
-      "url": "https://arxiv.org/abs/2611.08483v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1942b24768cd122d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the",
-      "published": "2026-11-05T18:58:17Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2611.08478v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0c8c2a36f84dd050",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integra",
-      "published": "2026-11-05T18:55:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI",
-        "q-bio.NC"
-      ],
-      "url": "https://arxiv.org/abs/2611.08469v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a8570c3aae04a0a0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Joint Bayesian Inference for Extraction of Charmonium Long Distance Matrix Elements Using PYTHIA",
-      "summary": "We present a joint Bayesian extraction of the nonrelativistic QCD long-distance matrix elements (LDMEs) for $J/ψ$, $ψ(2S)$, and $χ_c$ production, using short-distance coefficients and feed-down structure implemented in PYTHIA 8.317. Rather than fitting each charmonium state separately, we construct channel-resolved responses that link parent production to daughter feed-down and infer all LDMEs simultaneously from 286 prompt charmonium measurements in $pp$ collisions at $\\sqrt{s}=5.02$-13 TeV at ",
-      "published": "2026-11-05T18:53:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-ph"
-      ],
-      "url": "https://arxiv.org/abs/2611.08463v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8a7aeb4a0550bab7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
-      "summary": "Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understanding where no one can confidently explain how a system works or predict the impact of a change. Intent debt is the lack of clearly articulated goals, constraints, and rationale that explain what the syst",
-      "published": "2026-11-05T18:48:06Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2611.08456v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b1d1e2b0c647717f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. With an external post-trained tea",
-      "published": "2026-11-05T18:47:05Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.08453v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0a59fadf29694465",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st",
-      "published": "2026-11-05T18:44:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2611.08449v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "585f5585008258bc",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
-      "summary": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, ",
-      "published": "2026-11-05T18:34:08Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2611.08442v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
