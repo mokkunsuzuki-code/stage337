@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-11T04:55:15.849461+00:00",
+  "generated_at": "2026-11-12T05:57:06.811040+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 35,
   "items": [
     {
       "id": "20a88af8ac30790c",
@@ -378,6 +378,25 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "155d49fc440a8c80",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[toml] toml-node: Prototype pollution: parsing a TOML document can write to Object.prototype",
+      "summary": "",
+      "published": "2026-10-22T16:39:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h895-cgqg-jf52",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
