@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-21T05:50:41.882804+00:00",
+  "generated_at": "2026-11-22T05:22:20.930934+00:00",
   "mode": "safe-metadata-only",
   "item_count": 36,
   "items": [
@@ -367,6 +367,25 @@
       }
     },
     {
+      "id": "292f4e579dabd8e9",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
+      "summary": "",
+      "published": "2026-05-18T17:07:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "d0e556245110ae55",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -663,25 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-vvgp-ww4w-46vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3cddd54e4113a2e6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[safari-mcp] Safari MCP: JavaScript injection through single-quoted tool arguments (backslash not escaped)",
-      "summary": "",
-      "published": "2026-11-19T22:17:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4rj4-rcrq-gr92",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
