@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-23T05:59:29.147973+00:00",
+  "generated_at": "2026-11-24T08:39:34.310323+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 37,
   "items": [
     {
       "id": "d3ce68776d14e24f",
@@ -367,6 +367,63 @@
       }
     },
     {
+      "id": "04630ce09713ccab",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[isomorphic-git] isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
+      "summary": "",
+      "published": "2026-11-23T21:07:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9x82-4j54-863h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff36a8502a03eff5",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[i18next] i18next deepExtend recurses into inherited built-ins, allowing corruption of shared built-in objects (DoS)",
+      "summary": "",
+      "published": "2026-11-23T20:53:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6jcc-5g8w-32mx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ce7628b2a18ebca3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[xo-server] Xen Orchestra: Empty-object login token",
+      "summary": "",
+      "published": "2026-11-23T17:29:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "292f4e579dabd8e9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -644,44 +701,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-pc58-hwjq-p385",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "13cbae2cc9d57550",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Cross-user cache disclosure and poisoning in Next.js use cache with binary arguments",
-      "summary": "",
-      "published": "2026-11-19T22:20:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rhh4-g77r-r9qj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7965bba4e4d8d27b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Cache poisoning of shared fallback shells in Cache Components via request-supplied placeholder route params",
-      "summary": "",
-      "published": "2026-11-19T22:18:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vvgp-ww4w-46vf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
