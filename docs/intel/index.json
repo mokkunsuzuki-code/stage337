@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-24T08:39:34.310323+00:00",
+  "generated_at": "2026-11-25T07:13:50.803272+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 37,
+  "item_count": 47,
   "items": [
+    {
+      "id": "54cb2ad1aa71a5e8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[soapbar] soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
+      "summary": "",
+      "published": "2026-11-24T22:41:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-859w-52fx-hcm6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "d3ce68776d14e24f",
       "source": "github-advisory-pip",
@@ -348,17 +367,17 @@
       }
     },
     {
-      "id": "f560473420ac95b7",
-      "source": "github-advisory-pip",
+      "id": "47952027da6e9d79",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK corpus-reader view methods bypass the scoped root sandbox via intermediate-directory symlinks",
+      "title": "[ruflo] ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
       "summary": "",
-      "published": "2026-11-19T23:56:30.000Z",
+      "published": "2026-11-24T21:01:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g58v-j9g9-5gfg",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +709,196 @@
       }
     },
     {
-      "id": "fc0e490eeb762f54",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Cross-client response injection and disclosure in self-hosted Next.js applications forwarding fetched responses",
-      "summary": "",
-      "published": "2026-11-19T22:20:34.000Z",
+      "id": "794cd0233f4394bd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
+      "summary": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks in a single model, trained in two complementary stages. First, we train DiaCap on 225K curated clips, using synthetic captions that densely label every utterance in detail. Second, we further refine t",
+      "published": "2026-11-24T18:59:08Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV",
+        "cs.CL",
+        "cs.MM",
+        "cs.SD"
       ],
-      "url": "https://github.com/advisories/GHSA-pc58-hwjq-p385",
+      "url": "https://arxiv.org/abs/2611.33153v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0e2b369c910d5d86",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+      "summary": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its value as training data across inverse rendering, 3D reconstruction, scene understanding, and mobile",
+      "published": "2026-11-24T18:55:07Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.33137v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a5c413cd9abb3117",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SAG-Mem-1.0 Technical Report",
+      "summary": "Long-term conversational memory requires retrieving complementary facts scattered across dialogue sessions, including intermediate evidence with limited similarity to the original question. Existing approaches often rely on derived memory representations or persistent relational structures, introducing construction costs and potentially losing source details. We present SAG-Mem, a conversational memory framework that preserves complete dialogue messages in non-overlapping chunks and discovers co",
+      "published": "2026-11-24T18:51:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2611.33124v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "15e51922d8c56e8f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
+      "summary": "Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \\textsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill specifications for MPI C code generation. \\textsc{MetaFORGE} combines correctness testing, compiler diagnostics, static-analysis findings, runtime measurements, and rank-level load-imbalance profiles into",
+      "published": "2026-11-24T18:49:19Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.33119v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62fc893d9f76d0d0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Max-degree filtration, Koszul complexes, and Multicolor Permutation Wordle",
+      "summary": "We explore the Koszul resolutions of a family of ideals, each generated by multivariate polynomials that split completely into linear factors. The motivating examples come from the game Permutation Wordle of Kutin and Smithline, as analyzed by Kutin, Smithline, and Vatter, and an open question, Conjecture 4.5 in Kutin and Smithline's work on Multicolor Permutation Wordle. For each ideal in this family, with our chosen generators, the Koszul differentials are strict for the max-degree filtration ",
+      "published": "2026-11-24T18:45:11Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.AC",
+        "math.CO"
+      ],
+      "url": "https://arxiv.org/abs/2611.33113v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bbdc789ec78e9be1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+      "summary": "Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of draft tokens in target verification, which is directly related to the gap $\\|p-q\\|_1$ between the target distribution $p$ and the draft distribution $q$. In this paper, we study draft calibration of sp",
+      "published": "2026-11-24T18:41:59Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.33111v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "30a1ef439a8dfa9d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3, Gemma 4, and Llama 3.2 decoders in synthesizable register-transfer-level (RTL) code against an executable integer reference that specifies th",
+      "published": "2026-11-24T18:28:41Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.33093v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1ae9648c079b6bef",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Who decides the norms in TCS? Analysing the composition of the STOC 2027 committees and of the Simons Institute \"AI+TCS\" working group",
+      "summary": "A working group organised by the Simons Institute released a report last September containing recommendations aiming to increase the usage of LLMs in theoretical computer science (TCS), including introducing them for communication and evaluation. Most of these recommendations were enacted by the STOC 2027 programme committee and the ACM SIGACT executive committee (as the steering committee of STOC). The composition of the Simons Institute working group is analysed along two axes: country of affi",
+      "published": "2026-11-24T18:19:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2611.33082v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "668260fb93e8a10f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Shifter Quantization: Compact Representations for Native Integer Computation",
+      "summary": "Groupwise quantization is used in LLM quantization to improve accuracy at low bit widths, but grouping weights keeps standard integer MMA from spanning the full dot product for efficient GPU inference. We develop a new quantization method, Shifter Quantization (SQ), that reconstructs native-width integer operands by appending and shifting shared bits. To further extend the efficiency, we develop a special variant of SQ, Shifter Integer (SHI), to use INT4 kernels. We show that SQ and SHI formats ",
+      "published": "2026-11-24T18:14:52Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.33080v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "011173e7f3f6029b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics",
+      "summary": "Large Language Models (LLMs) are increasingly used to translate natural-language statements into first-order logic (FOL) to improve reasoning. However, LLMs are prone to errors, and so a semantically unfaithful FOL formula could corrupt downstream reasoning. We present FOL-Proof, a semantic firewall pipeline that validates LLM-generated FOL translations against independently derived linguistic interpretations. FOL-Proof operates by deterministically obtaining a pool of candidate translations via",
+      "published": "2026-11-24T18:13:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.LO"
+      ],
+      "url": "https://arxiv.org/abs/2611.33078v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
